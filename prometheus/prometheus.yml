@@ -4,7 +4,7 @@ global:
 scrape_configs:
   - job_name: 'node_exporter'
     static_configs:
-      - targets: ['node-exporter:9100'] # ดึงข้อมูลทรัพยากรของ Ubuntu Server
+      - targets: ['192.168.1.59:9100'] # ดึงข้อมูลทรัพยากรของ Ubuntu Server
 
   - job_name: 'helpdesk_app'
     static_configs:
